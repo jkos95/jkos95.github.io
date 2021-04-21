@@ -1,0 +1,198 @@
+/*MAIN CSS SHEET IS FOR ALL PAGES WITH NAV TEMPLATE USED*/
+/*MAIN CSS SHEET IS FOR ALL PAGES WITH NAV TEMPLATE USED*/
+
+/*Apply to all media queries*/
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+li a.active {
+  color: #3B9AD5;
+}
+
+li a:hover:not(.active) {
+  color: #3B9AD5;
+}
+
+li a {
+	color:#000000;
+}
+
+
+
+/* MOBILE sizing*/
+/* SMALL..........CLASS-SM*/
+/* MOBILE sizing*/
+
+.body-sm{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.header-sm {
+	padding: 0px;
+	height: 99px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+
+.style-logo-sm {
+	margin: 12px auto 0px 50px;
+	display: block;
+	height: 75px;
+	width: auto;
+	
+}
+
+.style-nav-sm ul {
+	list-style-type: none;
+}
+
+.style-nav-sm ul li a {
+	margin: 10px 0px -15px 0px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+
+
+
+/*FOR TABLE BODY CONTENT FORMATTING*/
+.row-sm:before, .row-sm:after {
+	content: "";
+	display: table;
+}
+
+.row-sm:after {
+	clear:both;
+}
+
+.footer-text {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.col-sm {
+	width: 100%;
+}
+
+
+
+
+
+
+/*Tablet View*/
+/*MEDIUM ..... CLASS-MED*/
+/*Tablet View*/
+
+@media (min-width: 768px) and (max-width: 1023px){
+	
+	.body-med {
+		width: 100%;
+		background-color: #BCBCBC;
+	}
+	
+	.header-med {
+		padding: 0px;
+		height: 99px;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	
+	.style-logo-med {
+		float: left;
+		margin: 10px auto 10px auto;
+		display: block;
+		height: 80px;
+	}
+	
+	.style-nav-med {
+		float: right;
+	}
+	.style-nav-med ul li {
+		display: inline-block;
+		margin: 22px auto 5px auto;
+	}
+	
+}/*END TABLET MEDIA QUERY*/
+
+
+
+/*Desktop View*/
+/*LARGE........ CLASS-LG*/
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	.body-lg {
+		width: 100%;
+	}
+	
+	.header-lg {
+		padding: 0px;
+		height: 110px;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	
+	.style-logo-lg {
+		float: left;
+		margin: 15px auto 15px 70px;
+		display: block;
+		height: 80px;
+	}
+	
+	.style-nav-lg {
+		float: right;
+		margin: 0px 50px 0px 0px;
+	}
+	
+	.style-nav-lg ul li {
+		display: inline-block;
+		margin: 22px auto 5px auto;
+	}
+	
+	.style-nav-lg ul li a {
+		margin: 15px 5px -15px 0px;
+		display: block;
+		text-decoration: none;
+		font-size: 14px;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 10px;
+	}
+	
+
+	
+}/*END DESKTOP MEDIA QUERY*/
+
+
+
+footer {
+	background-color: #000000;
+	height: 50px;
+	color: #FFFFFF;
+	font-size: 6px;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

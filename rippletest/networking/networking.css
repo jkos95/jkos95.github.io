@@ -1,0 +1,124 @@
+body {
+	background-color: #000000;
+}
+
+.topText {
+	color: #3B9AD5;
+	text-align: center;
+	font-size: 48px;
+	margin: 25px auto 25px auto;
+	text-transform: uppercase;
+}
+
+.container {
+}
+
+/*LEFT SIDE OF SPLIT*/
+.formLeft {
+	display: inline;
+	width: 50%;
+	float: left;
+}
+
+.formLeftText {
+	color: #FFFFFF;
+	font-size: 28px;
+	text-align: left;
+	margin: 0px 0px 30px 150px;
+}
+/*LEFT SIDE OF SPLIT*/
+
+/*RIGHT SIDE OF SPLIT*/
+.formRight {
+	display: inline;
+	width: 50%;
+}
+
+.formRightText1 {
+	color: #FFFFFF;
+	font-size: 28px;
+	text-align: center;
+	margin: 0px 0px 80px 0px;
+}
+
+.formRightText2 {
+	color: #FFFFFF;
+	display: inline-block;
+	margin: 0px 0px 10px 40px;
+}
+.dates {
+	display: block;
+	margin-top: 7px;
+}
+/*RIGHT SIDE OF SPLIT*/
+
+
+form {
+	width: 400px;
+	height: 300px;
+	text-align: right;
+	margin: 0px 60px 0px 0px;
+	float: right;
+	
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	color:#FFFFFF;
+}
+
+label {
+    display: inline;
+    width: 150px;
+	height: 45px;
+	font-size: 18px;
+	color:#FFFFFF;
+	margin: 0px 5px 0px 0px;
+}
+input {
+  	display: inline;
+  	float: right;
+	background-color: #000000;
+	color: #FFFFFF;
+	height: 30px;
+	width: 250px;
+	font-size: 18px;
+}
+
+textarea {
+  	display: inline-block;
+  	float: right;
+	background-color: #000000;
+	color: #FFFFFF;
+	height: 40px;
+	width: 250px;
+	border-color: #FFFFFF;
+	
+}
+
+#errorText {
+   display: none;
+   text-align: center;
+   padding: 10px;
+   margin: 0px auto 25px auto;
+   background: rgb(124,124,136);
+   color: white;
+   border: 2px solid rgb(190,50,38);
+   width: 500px;
+}
+
+div.errorMessage {
+   position: relative;
+   top: 50px;
+   line-height: 1.2em;
+}
+
+fieldset div.errorMessage {
+   display: none;
+   color: red;
+   margin-top: 10px;
+}
+

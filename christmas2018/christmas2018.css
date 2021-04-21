@@ -1,0 +1,385 @@
+/*CSS Stylesheet for Esther's 2018 Christmas page*/
+/*Formatting for mobile use: S9 = 2,220 x 1,080 pixels*/
+
+@media (min-width: 1128px) {
+	
+	body {
+	background-color: #000000;
+	width: 100%;
+	background-image: linear-gradient(to bottom left, green, red);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+	
+	#sudokuHeader {
+		font-size: 55px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0px 0px 0px 0px;
+	}
+
+	/*Stagger header colors*/
+	.whites {
+		color:#FFFFFF;
+		background-color: #000000;
+	}
+	.blacks {
+		color:#000000;
+		background-color: #FFFFFF;
+	}
+	/*Stagger header colors*/
+
+	/*L & R alignment boxes for the table*/
+	.wrapper {
+		
+		margin: 60px 0px 0px 0px;
+		height: 430px;
+	}
+	
+	.formHeader{
+		
+		font-size: 18px;
+		margin: 0px 0px 0px 0px;
+		width: 68%;
+		text-align: center;
+		text-decoration: underline;
+		
+	}
+	.fields {
+		max-width: 45%;
+		display: inline-block;
+		padding-left: 85px;
+		padding-right: 0px;
+		float: left;
+	}
+
+	.paragraphs {
+		width: 45%;
+		display: inline-block;
+		padding-top: 25px;
+	}
+	/*L & R alignment boxes for the table*/
+
+	/*FORM editing data*/
+	/*FORM editing data*/
+
+	/*Block wraps all label/input combos*/
+
+
+	form {
+	  width: 60%;
+	  float: left;
+	  margin: 20px;
+	}
+	form > div {
+	  position: relative;
+	  overflow: hidden;
+	}
+	form.row input {
+	  	width: 91%;
+	  	border: 2px solid gray;
+	  	background: none;
+	  	position: relative;
+	  	top: 0;
+	  	left: 0px;
+	  	z-index: 1;
+	  	padding: 8px 12px;
+	  	outline: 0px;
+		font-size: 28px;
+	}
+
+	form.column input {
+	  width: 90%;
+	  border: 2px solid gray;
+	  background: none;
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  z-index: 1;
+	  padding: 8px 12px;
+	  outline: 0;
+	  font-size: 28px;
+	}
+	form input:valid {
+	  background: white;
+	}
+	form input:focus {
+	  border-color: #f06d06;
+	}
+	form input:focus + label {
+	  background: #f06d06;
+	  color: white;
+	  font-size: 70%;
+	  padding: 1px 5px;
+	  z-index: 2;
+	}
+	form label {
+	  transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+	  position: absolute;
+	  color: #999;
+	  padding: 7px 0px 0px 10px;
+	}
+
+	form.row label {
+	  top: 2px;
+	  right: 100%;
+	  width: 100%;
+	  margin-right: -102%;
+	  bottom: 2px;
+	  font-size: 28px;
+	}
+	form.row input:focus + label {
+	  right: 0;
+	  margin-right: 1px;
+	  width: 20%;
+	  padding-top: 5px;
+	}
+
+	form.column label {
+	  top: 2px;
+	  right: 100%;
+	  width: 100%;
+	  margin-right: -102%;
+	  bottom: 2px;
+	  font-size: 28px;
+	}
+	form.column input:focus + label {
+	  right: 2px;
+	  margin-right: 1px;
+	  width: 20%;
+	  padding-top: 5px;
+	}
+	
+	
+	.instructions {
+		width: 85%;
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	
+	/*PRIZE BOX*/
+	.prize-box {
+		width: 40%;
+		height: 40px;
+		text-align: center;
+		margin: 10px auto 0px auto;
+	}
+	
+	#congrats {
+		visibility: hidden;
+	}
+	
+	#link {
+		width: 40%;
+		height: 40px;
+		border: 3px solid black;
+		text-align: center;
+		padding: 10px 100px;
+		visibility: hidden;
+	}
+	
+
+}/*end large media query*/
+
+
+
+
+/*MEDIA QUERY FOR MOBILE*/
+/*MEDIA QUERY FOR MOBILE*/
+/*MEDIA QUERY FOR MOBILE*/
+/*MEDIA QUERY FOR MOBILE*/
+
+
+
+@media (max-width: 1127px) {
+	
+	html, body {
+		width: 100vw;
+		height: 100%;
+		margin: 0px auto 0px auto;;
+		padding: 0px 0px 0px 3%;
+	}
+	
+	body {
+	background-color: #000000;
+	width: 100%;
+	background-image: linear-gradient(to bottom left, green, red);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+		overflow-x: hidden;
+	}
+	
+	#sudokuHeader {
+		font-size: 10vw;
+		width: 100%;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0px 0px 0px 0px;
+	}
+
+	/*Stagger header colors*/
+	.whites {
+		color:#FFFFFF;
+		background-color: #000000;
+	}
+	.blacks {
+		color:#000000;
+		background-color: #FFFFFF;
+	}
+	/*Stagger header colors*/
+
+	/*L & R alignment boxes for the table*/
+	.wrapper {
+		height: auto;
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+	}
+
+	.paragraphs {
+		width: 100%;
+		display: block;
+		padding: 35px 5vw 0px 5vw;
+		order: 1;
+	}
+	
+	.fields {
+		max-width: 85%;
+		padding: 0px 0px 0px 10%;
+		order: 2;
+	}
+
+		
+	/*For paragraph and link text*/
+	.instructions {
+		width: 85%;
+		text-align: justify;
+		font-size: 16px;
+	}
+	
+	.goodluck {
+		width: 85%;
+		text-align: center;
+		font-size: 16px;
+	}
+	/*For paragraph and link text*/
+	
+
+	.formHeader{
+		
+		font-size: 18px;
+		margin: 25px 0px 15px 0px;
+		text-align: left;
+		
+	}	
+	/*FORM editing data*/
+	/*FORM editing data*/
+
+	/*Block wraps all label/input combos*/
+
+
+	form {
+		margin-bottom: 30px;
+	}
+	
+	form > div {
+	  position: relative;
+	  overflow: hidden;
+	}
+	form.row input {
+	  	width: 85%;
+	  	border: 2px solid gray;
+	  	background: none;
+	  	position: relative;
+		z-index: 1;
+	  	padding: 8px 12px;
+		font-size: 28px;
+	}
+
+	form.column input {
+		width: 85%;
+		border: 2px solid gray;
+		background: none;
+		position: relative;
+		z-index: 1;
+		padding: 8px 12px;
+		font-size: 28px;
+	}
+	form input:valid {
+	  background: white;
+	}
+	form input:focus {
+	  border-color: #f06d06;
+	}
+	form input:focus + label {
+	  background: #f06d06;
+	  color: white;
+	  font-size: 70%;
+	  padding: 1px 5px;
+	  z-index: 2;
+	}
+	form label {
+	  transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+	  position: absolute;
+	  color: #999;
+	  padding: 7px 0px 0px 10px;
+	}
+
+	form.row label {
+	  top: 2px;
+	  right: 100%;
+	  width: 100%;
+	  margin-right: -102%;
+	  bottom: 2px;
+	  font-size: 28px;
+	}
+	form.row input:focus + label {
+	  right: 0px;
+	  margin-right: 20px;
+	  width: 20%;
+	  padding-top: 5px;
+	}	
+	
+	form.column label {
+	  top: 2px;
+	  right: 100%;
+	  width: 100%;
+	  margin-right: -102%;
+	  bottom: 2px;
+	  font-size: 28px;
+	}
+	form.column input:focus + label {
+	  right: 8px;
+	  margin-right: 20px;
+	  width: 20%;
+	  padding-top: 5px;
+	}
+
+
+	/*PRIZE BOX*/
+	.prize-box {
+		width: 100vw;
+		height: 40px;
+		text-align: center;
+	}
+	
+	#congrats {
+		text-align: center;
+		margin: 0px 0px 0px -10px;
+		visibility: hidden;
+	}
+	
+	#link {
+		height: 40px;
+		border: 3px solid black;
+		padding: 10px 10%;
+		margin: 0px 0px 0px -15px;
+		visibility: hidden;
+	}
+	
+
+}/*end large media query*/
+

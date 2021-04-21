@@ -1,0 +1,79 @@
+/*below media for phones/mobile*/
+@media screen and (max-width: 600px){
+    body{
+        background-color: #000;
+    }/*end body*/
+  
+}/*end media*/
+
+/*below media for tablets/small pc*/
+@media screen and (max-width: 950px){    
+    body{
+        background-color: #000;
+    }/*end body*/
+
+}/*end media*/
+
+/*below media for computers*/
+@media screen and (min-width: 951px){
+    body{
+        background-color: #000;
+    }/*body close*/
+   
+}
+
+#banner{
+letter-spacing:-.12em;
+text-align: center;
+width:100vw;
+font-size:5vw;
+position:fixed;
+}
+
+#banner span:nth-of-type(even){
+color:#FF0000;
+}
+
+#banner span:nth-of-type(odd){
+color:#00cf00;
+}
+
+#bodytext{
+color: #FFFFFF;
+position: relative;
+}
+
+#bodytext #salutation{
+font-family:cursive;
+font-size:20px;
+}
+
+#introtext{
+font-family:cursive;
+font-weight: bold;
+}
+
+#audio{
+text-align:right;
+position:-webkit-sticky;
+position:sticky;
+}/*audio close*/
+    
+.sticky {
+position: fixed;
+top: 0px;
+right: 10px;
+}
+
+#luke{
+color: #FFFFFF;
+position: relative;
+}
+
+#btn1{
+cursor:pointer;
+}
+#btn2{
+cursor:pointer;
+display: none;
+}

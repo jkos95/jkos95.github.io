@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--opening html5 tag-->
+
+<!--link CSS doc to html doc-->
+<link rel="stylesheet" type="text/css" href="xmas.css">
+
+<!--JS file for snow storm-->
+
+<script src="snowstorm.js">
+</script>
+
+<!--end JS file-->
+
+<head>
+
+<!--Declare view type, screen scale, and character set-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=.5, user-scalable=yes" charset="utf-8">
+
+<!--set page title-->
+<title>Christmas 2017</title>
+
+</head>
+<!--end head begin body of html-->
+
+<body>
+
+<div id="banner">
+
+<span>M</span>
+<span>e</span>
+<span>r</span>
+<span>r</span>
+<span>y&nbsp</span>
+<!--second word-->
+<span>C</span>
+<span>h</span>
+<span>r</span>
+<span>i</span>
+<span>s</span>
+<span>t</span>
+<span>m</span>
+<span>a</span>
+<span>s</span>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="bodytext">
+<p>
+<span id="introtext">Merry Christmas my love</span> :) Press play to hear me read, and you can follow along to the words below. Once you press play, the button turns into a pause button if you need to pause it.
+</p>
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+<!--div audio for all audio buttons script and file-->
+<div id="audio"><!--surround buttons and script-->
+
+<!-- for making buttons stick to top-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var audio = document.getElementById("audio");
+var sticky = audio.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    audio.classList.add("sticky")
+  } else {
+    audio.classList.remove("sticky");
+  }
+}
+</script>
+<!-- end script for sticky buttons-->
+
+<!-- audio/button properties-->
+<audio id="lukestory">
+    <source src="http://www.limesupport.com/christmas2017/luke2story.m4a" type="audio/mp4">
+    Your browser does not support this audio element.
+</audio>
+
+<button onclick="playAudio()" type="button" id="btn1">Play</button>
+<button onclick="pauseAudio()" type="button" id="btn2">Pause</button>
+
+<!-- script for audio -->
+<script>
+<!-- Script to declare variable, and play/pause depending on user input -->
+var x = document.getElementById("lukestory");
+var y = document.getElementById("btn1");
+var z = document.getElementById("btn2");
+
+function playAudio() {
+    x.play(); 
+    //for hiding play and showing pause
+    y.style.display = "none";
+    z.style.display = "inline-block";
+}
+
+function pauseAudio() {
+    x.pause();
+    //for hiding play and showing pause
+    y.style.display = "inline-block";
+    z.style.display = "none";
+}
+
+</script>
+<!-- end script for audio -->
+
+</div>
+<!--end div for audio script and buttons-->
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<p>
+The Christmas story, Luke 2:1-21 -
+</p>
+
+<p id="storytext"><!--around whole story, not title Luke-->
+&nbsp&nbsp&nbsp&nbsp
+In those days Caesar Augustus issued a decree that a census should be taken of the entire Roman world. 2 (This was the first census that took place while Quirinius was governor of Syria). 3 And everyone went to his own town to register.
+<br><br>
+4 So Joseph also went up from the town of Nazareth in Galilee to Judea, to Bethlehem the town of David, because he belonged to the house and line of David. 5 He went there to register with Mary, who was pledged to be married to him and was expecting a child. 6 While they were there, the time came for the baby to be born, 7 and she gave birth to her firstborn, a son. She wrapped him in cloths and placed him in a manger, because there was no room for them in the inn.
+<br><br>
+8 And there were shepherds living out in the fields nearby, keeping watch over their flocks at night. 9 An angel of the Lord appeared to them, and the glory of the Lord shone around them, and they were terrified. 10 But the angel said to them, “Do not be afraid. I bring you good news that will cause great joy for all the people. 11 Today in the town of David a Savior has been born to you; he is Christ the Lord. 12 This will be a sign to you: You will find a baby wrapped in cloths and lying in a manger.”
+<br><br>
+13 Suddenly a great company of the heavenly host appeared with the angel, praising God and saying,
+<br><br>
+14 “Glory to God in the highest, and on earth peace to men on whom his favor rests.” 15 When the angels had left them and gone into heaven, the shepherds said to one another, “Let’s go to Bethlehem and see this thing that has happened, which the Lord has told us about.”
+<br><br>
+16 So they hurried off and found Mary and Joseph, and the baby, who was lying in the manger. 17 When they had seen him, they spread the word concerning what had been told to them about this child, 18 and all who heard it were amazed at what the shepherds said to them. 19 But Mary treasured up all these things and pondered them in her heart. 20 The shepherds returned, glorifying and praising God for all the things they had heard and seen, which were just as they had been told.
+<br><br>
+21 On the eighth day, when it was time to circumcise the child, he was named Jesus, the name the angel had given him before he had been conceived.
+</p><!--end p around versus and not luke title-->
+
+<br>
+<!-- space and outro-->
+<p>
+I hope you liked the story... Now go look at the present that is with all your leafy friends!
+</p>
+<!-- salutation-->
+<p>
+Your love,<br>
+<span id="salutation">- Jeffrey</span>
+</p>
+
+
+</div><!--end bodytext around all body-->

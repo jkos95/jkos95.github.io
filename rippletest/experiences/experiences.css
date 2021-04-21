@@ -1,0 +1,14 @@
+body {
+	background-color: #000000;
+}
+
+.bodyText {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 45px auto 45px auto;
+	font-size: 30px;
+}
+
+.iframe {
+	text-align: center;
+}

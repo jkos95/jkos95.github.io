@@ -1,0 +1,141 @@
+/*Edits the ENTIRE html page*/
+body
+{
+background-color:#000000;
+
+}
+hr
+{
+size:2;
+border-color:#FF6600;
+}
+
+/*EDITS LIMESUPPORT IN HEADER -------------------*/
+#header
+{
+font-family:papyrus;
+text-align:center;
+text-align:top;
+font-size:3.5em;
+margin:25px;
+word-spacing:-12px;
+}
+
+#header span.lime
+{
+color:#00FF00;
+}
+
+#header span.support
+{
+color:#FF00FF;
+}
+
+#header span.tm
+{
+font-size:.2em;
+vertical-align:super;
+color:#FFFFFF;
+}
+/*EDITS LIMESUPPORT IN HEADER -------------------*/
+/*-------------LINKS----------*/
+a:link
+{
+color:#FFFFFF;
+font-size:.9em;
+font-weight:bold;
+text-decoration:none;
+text-align:center;
+font-family:papyrus;
+cursor:pointer;
+}
+
+a:visited
+{
+color:#FFFFFF;  
+}
+
+a:hover
+{
+color:#FF00FF;
+font-size:.95em;
+font-weight:bold;
+text-decoration:none;
+text-align:center;
+font-family:papyrus;
+}
+/*NO A:ACTIVE*/
+
+/*-------------LINKS----------*/
+
+
+/*!!!!!! END PAGE HEADER
+
+BEGIN BODY WORK !!!!!!!*/
+
+#row1
+{
+padding-left:25%;
+}
+/* Google Logo */
+#google
+{
+font-size:1.0em;
+letter-spacing:-1.4pt;
+display:inline-block;
+margin-right:70px;
+}
+#google span.g
+{
+color:#3369E8;
+}
+#google span.o1
+{
+color:#D50F25;
+}
+#google span.o2
+{
+color:#EEB211;
+}
+#google span.l
+{
+color:#009939;
+}
+#google span.e
+{
+color:#D50F25;
+}
+
+#dictionary
+{
+display:inline-block;
+}
+#dictionary span.dict
+{
+color:#FFFFFF;
+font-style:italic;
+display:inline-block;
+}
+
+
+
+
+
+/****
+
+*****END PAGE BODY*****
+
+***BEGIN PAGE FOOTER***
+
+!!!!!!!!*/
+
+footer
+{
+color:#FFFFFF;
+font-size:.6em;
+text-align:center;
+}
+
+
+
+

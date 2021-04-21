@@ -1,0 +1,42 @@
+	
+
+.rippleWater {
+	background: url(../images/rippleWater.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 370px;
+
+	text-align: center;
+	font-family: 'Fjalla One', arial, sans-serif, ;
+	font-size: 44px;
+	font-weight: 400;
+	text-transform: uppercase;
+	word-wrap: break-word;
+	line-height: 1.2;
+	color: #626262;
+
+	padding: 70px 0px 0px 0px;
+
+}
+
+.rippleText {
+	margin: 20px auto;
+}
+	
+	
+/*END DESKTOP MEDIA QUERY*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

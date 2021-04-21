@@ -1,0 +1,240 @@
+/*Edits the ENTIRE html page*/
+body
+{
+background-color:#FF00FF;
+}
+
+hr
+{
+size:2;
+border-color:#FF6600;
+}
+
+/*EDITS HEADER -- EDITS HEADER --*/
+/*EDITS HEADER -- EDITS HEADER --*/
+
+#header
+{
+font-family:papyrus;
+text-align:center;
+text-align:top;
+font-size:3.5em;
+margin:25px;
+word-spacing:-12px;
+}
+#header span.lime
+{
+color:#00FF00;
+font-style:italic;
+}
+
+#header span.support
+{
+color:#FF00FF;
+}
+
+#header span.tm
+{
+font-size:.2em;
+vertical-align:super;
+color:#FFFFFF;
+}
+/*END HEADER -- END HEADER --*/
+/*END HEADER -- END HEADER --*/
+
+/*-------------LINKS----------*/
+a:link
+{
+color:#FFFFFF;
+font-size:.9em;
+font-weight:bold;
+text-decoration:none;
+text-align:center;
+font-family:papyrus;
+cursor:pointer;
+}
+
+a:visited
+{
+color:#FFFFFF;  
+}
+
+a:hover
+{
+color:#FF00FF;
+font-size:.95em;
+font-weight:bold;
+text-decoration:none;
+text-align:center;
+font-family:papyrus;
+}
+/*NO A:ACTIVE*/
+
+/*-------------LINKS----------*/
+td
+{
+border:2px dotted #00FF00;
+}
+
+/*------ROW1------*/
+#row1 span.words
+{
+color:#FF00FF;
+font-size:25px;
+margin-right:5px;
+margin-left:5px;
+}
+#row1 span.links
+{
+display:inline-block;
+vertical-align:middle;
+border-style:dotted;
+border-color:#00FF00;
+border-width:2px;
+padding:10px;
+margin:5px;
+}
+#row1 span.wordbar
+{
+display:inline-block;
+vertical-align:middle;
+border-color:#00FF00;
+margin-left:10px;
+}
+
+/*------ROW2------*//*------ROW2------*/
+#row2
+{
+padding-top:10px;
+}
+#row2 span.words
+{
+color:#FF00FF;
+font-size:25px;
+width:50px;
+margin-right:33px;
+margin-left:5px;
+}
+#row2 span.links
+{
+display:inline-block;
+vertical-align:middle;
+margin-right:10.3px;
+border-style:dotted;
+border-color:#00FF00;
+border-width:2px;
+padding:10px;
+}
+
+/*------ROW3------*//*------ROW3------*/
+#row3
+{
+margin-left:127.3px;
+padding-top:15px;
+}
+#row3 span.links
+{
+display:inline-block;
+vertical-align:middle;
+border-style:dotted;
+border-color:#00FF00;
+border-width:2px;
+margin-right:10.3px;
+padding:10px;
+
+}
+
+/* --- END LINKS --- */
+
+/* LIME LOGO */
+#parent #littlelime 
+{
+font-family:papyrus;
+text-align:center;
+font-size:.9em;
+word-spacing:-2px;
+margin:0px;// /*unnecessary*/
+}
+#parent #littlelime span.lime
+{
+color:#00FF00;
+font-style:italic;
+}
+#parent #littlelime span.support
+{
+color:#FF00FF;
+}
+#parent #littlelime span.tm
+{
+font-size:6px;
+vertical-align:50%;
+color:#FFFFFF;
+}
+#parent #littlelime span.pipe
+{
+color:#FFFFFF;
+margin-left:4px;
+margin-right:7px;
+}
+
+/* Google Logo */
+#google
+{
+font-size:1.0em;
+letter-spacing:-1.4pt;
+}
+#google span.g
+{
+color:#3369E8;
+}
+#google span.o1
+{
+color:#D50F25;
+}
+#google span.o2
+{
+color:#EEB211;
+}
+#google span.l
+{
+color:#009939;
+}
+#google span.e
+{
+color:#D50F25;
+}
+
+#dictionary span.dict
+{
+color:#FFFFFF;
+font-style:italic;
+}
+
+
+
+/****
+
+*****END PAGE BODY*****
+
+***BEGIN PAGE FOOTER***
+
+!!!!!!!!*/
+
+footer
+{
+color:#FFFFFF;
+font-size:.6em;
+text-align:center;
+
+
+
+
+
+
+
+
+
+
+
+
+

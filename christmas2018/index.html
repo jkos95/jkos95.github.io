@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+	
+<link rel="stylesheet" href="christmas2018.css" />
+	
+<title>Christmas 2018</title>
+	
+</head>
+
+<body>
+
+	<!--Create header, then 2=-pane grid body-->
+	<!--header: navigation to previous web pages/apps?--> 
+	
+<header>
+	<p id="sudokuHeader">
+			
+		<span class="blacks">S</span><span class="whites">u</span><span class="blacks">d</span><span class="whites">o</span><span class="blacks">k</span><span class="whites">u</span>
+		
+		<span class="blacks">C</span><span class="whites">h</span><span class="blacks">r</span><span class="whites">i</span><span class="blacks">s</span><span class="whites">t</span><span class="blacks">m</span><span class="whites">a</span><span class="blacks">s</span>
+			
+	</p>
+
+
+</header>
+	
+	
+<main>
+	
+	<div class="wrapper"><!--Wraps around left and right aligned div boxes-->
+	
+		<!-- LEFT BOX LEFT BOX LEFT BOX-->
+		<div class="fields">
+		
+			
+			<p class="formHeader">
+				Sodoku solutions:
+			</p>
+			
+			<form class="row">
+				
+				<div class="block">
+					<input id="row2" name="row2" type="tel" class="formItem" required />
+					<label for="row2">Row 2</label>
+				</div>
+				
+				<div class="block">
+					<input id="row5" name="row5" type="tel" class="formItem" required />
+					<label for="row5">Row 5</label>
+				</div>
+					
+				<div class="block">
+					<input id="row8" name="row8" type="tel" class="formItem" required />
+					<label for="row8">Row 8</label>
+				</div>
+				
+			</form>
+			
+			<!--Second col form-->	
+				
+			<form class="column">
+				
+				<div class="block">
+					<input id="col2" name="col2" type="tel" class="formItem" required />
+					<label for="col2">Column 2</label>
+				</div>
+				
+				<div class="block">
+					<input id="col5" name="col5" type="tel" class="formItem" required />
+					<label for="col5">Column 5</label>
+				</div>
+					
+				<div class="block">
+					<input id="col8" name="col8" type="tel" class="formItem" required />
+					<label for="col8">Column 8</label>
+				</div>
+			
+			
+			</form>
+			
+			
+		</div><!--END LEFT BOX-->
+	
+		<!--RIGHT BOX RIGHT BOX RIGHT BOX-->
+		<div class="paragraphs">
+		
+			<p class="instructions">
+			Instructions:<br><br>
+				
+			Visit the Sudoku game link at the bottom of this paragraph, or fill out the puzzle on paper. 
+				<br><br>
+				Web: On the web page, type "200" in the "number" field and tap "Go to this puzzle". Leave the level set to easy. If you do not play board 200, you will not get the correct passwords. When you get to the end of the puzzle, write down the rows and columns required underneath "Sudoku solutions" on this page so you can enter the numbers. For example, the field that says "Row 2" will require the full 9 numbers in row 2 of the puzzle. 
+				<br><br>
+				
+				Paper: Once you complete the puzzle, enter the rows and columns you are prompted to fill in on the web page. 
+				<br><br>
+				
+				When you enter all 9 numbers, the field will turn red or green depending on if you entered it correctly. When all 6 fields turn green, your prize will 
+				appear in the box at the bottom of the page.
+				<br><br>
+				
+			</p>
+			
+			<p class="goodluck">
+				Good luck: <a href="https://www.websudoku.com/?select=1&level=1" target="_blank">https://www.websudoku.com/?select=1&level=1</a>
+			</p>
+			
+		</div><!-- END RIGHT BOX-->
+	
+	
+	
+	
+	
+	</div><!-- END WRAPPER-->
+	
+	
+	<div class="prize-box">
+		
+		
+		<span id="congrats">
+			Congratulations!
+		</span>
+		<br><br>
+		<span id="link">
+			<a href="https://play.google.com/store/apps/details?id=com.limesupport.moodbible">Click me from a mobile phone</a>
+		</span>
+		
+	</div>
+	
+	
+	<br><br><br>
+	
+	
+</main>
+	<!--https://css-tricks.com/float-labels-css/-->
+	
+
+	
+	
+	
+<script src="christmas2018.js"></script>
+
+</body>
+	
+</html>
