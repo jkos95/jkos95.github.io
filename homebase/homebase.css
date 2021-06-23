@@ -98,7 +98,7 @@ border-style:dotted;
 border-color:#00FF00;
 border-width:2px;
 padding:10px;
-margin: 5px 5px 5px 5px;
+margin: 5px 1px 5px 5px;
 display:inline-block;
 }
 
@@ -109,12 +109,6 @@ width: 130px;
 }
 
 
-
-
-
-/*------ROW1------*/
-
-
 .wordbar
 {
 display:inline-block;
@@ -123,30 +117,12 @@ border-color:#00FF00;
 margin-left:10px;
 }
 
-/*------ROW2------*//*------ROW2------*/
 
-/*
-.links
-{
-display:inline-block;
-vertical-align:middle;
-margin-right:10.3px;
-border-style:dotted;
-border-color:#00FF00;
-border-width:2px;
-padding:10px;
-}
-*/
-/*------ROW3------*//*------ROW3------*/
-/*
-#row3
-{
-margin-left:127.3px;
-padding-top:15px;
-}
-*/
 
 /* --- END LINKS --- */
+
+
+
 
 /* LIME LOGO */
 #parent #littlelime 
