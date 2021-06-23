@@ -3,6 +3,9 @@
 body
 {
 background-color:#000000;
+max-width: 1152px;
+margin-left: auto;
+margin-right: auto;
 }
 
 hr
@@ -72,26 +75,21 @@ font-family:papyrus;
 
 /*-------------LINKS----------*/
 
-.rows
+
+.row
 {
-display: inline-block;
+padding: 0px 10px;
+display:inline-block;
 }
 
-.rows img
-{
-height: 130px;
-width: 130px;
-}
-
-/*words on desktop browser*/
 .col1
 {
 color:#FF00FF;
 font-size:25px;
-margin: 0 0px;
 width: 120px;
-}
+display:inline-block;
 
+}
 
 .links
 {
@@ -100,13 +98,24 @@ border-style:dotted;
 border-color:#00FF00;
 border-width:2px;
 padding:10px;
-margin: 5px 0px 5px 5px;
+margin: 5px 5px 5px 5px;
+display:inline-block;
 }
+
+.links img
+{
+height: 130px;
+width: 130px;
+}
+
+
+
+
 
 /*------ROW1------*/
 
 
-.row1 span.wordbar
+.wordbar
 {
 display:inline-block;
 vertical-align:middle;
@@ -115,12 +124,9 @@ margin-left:10px;
 }
 
 /*------ROW2------*//*------ROW2------*/
-#row2
-{
-padding-top:10px;
-}
 
-#row2 span.links
+/*
+.links
 {
 display:inline-block;
 vertical-align:middle;
@@ -130,24 +136,15 @@ border-color:#00FF00;
 border-width:2px;
 padding:10px;
 }
-
+*/
 /*------ROW3------*//*------ROW3------*/
+/*
 #row3
 {
 margin-left:127.3px;
 padding-top:15px;
 }
-#row3 span.links
-{
-display:inline-block;
-vertical-align:middle;
-border-style:dotted;
-border-color:#00FF00;
-border-width:2px;
-margin-right:10.3px;
-padding:10px;
-
-}
+*/
 
 /* --- END LINKS --- */
 
@@ -243,7 +240,7 @@ color:#FFFFFF;
 
 
 
-/*    TABLET SIZE    */
+/*
 
 @media screen and (max-width: 992px) {
 
@@ -253,7 +250,8 @@ body {
 
 
 
-}/*end @media max-width 992px; for tablet*/
+}*/
+/*end @media max-width 992px; for tablet*/
 
 
 
@@ -263,10 +261,44 @@ body {
 
 /*    PHONE SIZE    */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 828px) {
 
 body {
 	background-color: #FF00FF;
+	width: 100%;
+
+}
+
+.col1
+{
+display: none;
+}
+
+.rows
+{
+display: block;
+align-content: center;
+}
+
+.row1
+{
+width: 100%;
+}
+
+.wordbar
+{
+display: none;
+}
+
+.links
+{
+vertical-align:middle;
+border-style:dotted;
+border-color:#00FF00;
+border-width:2px;
+padding:10px 10px;
+margin: 5px 5px 5px 0px;
+display: inline-block;
 }
 
 
