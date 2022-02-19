@@ -4,8 +4,8 @@ body
 {
 background-color:#000000;
 max-width: 1152px;
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;
+text-align: center;
 }
 
 hr
@@ -76,20 +76,13 @@ font-family:papyrus;
 /*-------------LINKS----------*/
 
 
+
 .row
 {
-padding: 0px 10px;
+padding: 0px 0px;
 display:inline-block;
 }
 
-.col1
-{
-color:#FF00FF;
-font-size:25px;
-width: 120px;
-display:inline-block;
-
-}
 
 .links
 {
@@ -112,10 +105,21 @@ width: 130px;
 .wordbar
 {
 display:inline-block;
-vertical-align:middle;
 border-color:#00FF00;
 margin-left:10px;
 }
+
+.textinput
+{
+display:inline-block;
+}
+
+.inputbutton
+{
+display:inline-block;
+}
+
+
 
 
 
@@ -125,13 +129,18 @@ margin-left:10px;
 
 
 /* LIME LOGO */
+#parent
+{
+text-align: left;
+margin: 0 0;
+}
 #parent #littlelime 
 {
 font-family:papyrus;
 text-align:center;
-font-size:.9em;
+font-size: 16px;
 word-spacing:-2px;
-margin:0px;// /*unnecessary*/
+float: left;
 }
 #parent #littlelime span.lime
 {
@@ -158,7 +167,7 @@ margin-right:7px;
 /* Google Logo */
 #google
 {
-font-size:1.0em;
+font-size:16px;
 letter-spacing:-1.4pt;
 }
 #google span.g
